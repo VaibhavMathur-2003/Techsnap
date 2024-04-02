@@ -28,11 +28,26 @@
 
 		<link rel="stylesheet" href="css/more.css" />
 
+		<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.0.6/dist/js/splide.min.js"></script>
 		<!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
 
 		<title>Document</title>
 
 		<script src="javascript/popup.js"></script>
+		<script>
+			document.addEventListener('DOMContentLoaded', function () {
+				new Splide('#splide01', {
+				type       : 'carousel',
+				perPage    : 5,
+				rewind     : true,
+				breakpoints: {
+					500: {
+					perPage: 1,
+					}
+				},
+				}).mount();
+			});
+		</script>
 	</head>
 	<body>
 		<!-- popup -->
@@ -421,7 +436,22 @@
 				<div class="more-resource">
 					<div class="more-resource-card">
 						<p>Resource center</p>
+						<div class="resource-container">
+							<div class="resource-item">
+							  <img src="https://cdn-icons-png.flaticon.com/128/1323/1323734.png" alt="Icon 1" class="resource-icon">
+							  <div class="resource-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, natus nobis. Qui laborum nemo dolorum.</div>
+							</div>
+							<div class="resource-item">
+							  <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="Icon 2" class="resource-icon">
+							  <div class="resource-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, natus nobis. Qui laborum nemo dolorum.</div>
+							</div>
+							<div class="resource-item">
+							  <img src="https://cdn-icons-png.flaticon.com/128/5968/5968841.png" alt="Icon 3" class="resource-icon">
+							  <div class="resource-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, natus nobis. Qui laborum nemo dolorum.</div>
+							</div>
+						  </div>
 					</div>
+					
 				</div>
 
 				<div class="more-footer">
@@ -488,8 +518,14 @@
 					</div>
 				</div>
 				<div class="career-row2">
-					<div class="blank"></div>
-					<div class="blank"></div>
+					<div class="blank">
+						<img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" alt="" class="resource-icon">
+						<img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="" class="resource-icon">
+						<img src="https://cdn-icons-png.flaticon.com/128/5968/5968841.png" alt="" class="resource-icon">
+					</div>
+					<div class="blank">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, tenetur doloremque asperiores officia.
+					</div>
 					<div class="career-logo-container">
 						<div class="career-logos">
 							<img src="./assets/amazon.png" alt="" />
