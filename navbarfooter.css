@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 
-body{
+/* body{
   overflow-x:hidden
-}
+} */
 .mainBody {
   line-height: 1.2 !important;
 }
@@ -676,7 +676,6 @@ body{
 .join_our p {
   color: #fff;
   font-weight: 500;
-  margin-right: 120px;
   white-space: nowrap;
 }
 
@@ -805,6 +804,7 @@ body{
   .join_our {
     position: relative;
     align-items: center;
+    margin-bottom: 30px;
   }
 }
 
