@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 
-/* body{
-  overflow-x:hidden
-} */
+body{
+  overflow-x: hidden; 
+}
 .mainBody {
   line-height: 1.2 !important;
 }
@@ -258,11 +258,7 @@
   }
 }
 
-* {
-  margin: 0;
-  box-sizing: border-box;
-  padding: 0;
-}
+
 
 .nav-bar-desktop {
   z-index: 1000;
