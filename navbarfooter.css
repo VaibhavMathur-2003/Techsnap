@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 
 body{
-  overflow-x: hidden; 
+  overflow-x:hidden
 }
 .mainBody {
   line-height: 1.2 !important;
@@ -74,7 +74,7 @@ body{
 
 @media screen and (max-width: 1024px) {
   .nav-mainPage {
-    width: 98vw;
+    width: 100vw;
     height: 100vh;
     background-color: white;
     position: fixed;
@@ -258,7 +258,11 @@ body{
   }
 }
 
-
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
 
 .nav-bar-desktop {
   z-index: 1000;
@@ -672,6 +676,7 @@ body{
 .join_our p {
   color: #fff;
   font-weight: 500;
+  margin-right: 120px;
   white-space: nowrap;
 }
 
@@ -800,7 +805,6 @@ body{
   .join_our {
     position: relative;
     align-items: center;
-    margin-bottom: 30px;
   }
 }
 
